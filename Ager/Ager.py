@@ -1,6 +1,11 @@
 import time
 import os
 import sys
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+# Call the function to clear the screen
+clear_screen()
 ascii_art = """
                                  
      /\                          
